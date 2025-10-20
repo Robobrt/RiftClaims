@@ -1,0 +1,25 @@
+name: RiftClaims
+version: ${project.version}
+main: com.riftproject.riftclaims.RiftClaims
+api-version: ${api.version}
+author: Robobrt
+description: Простой плагин на приват, один приват на игрока.
+commands:
+  dom:
+    description: Получить инструмент для привата территории.
+    usage: /<command>
+    permission: riftclaims.command.dom
+    permission-message: У вас нет прав для использования этой команды.
+    aliases: [d]
+  domdelete:
+    description: Удалить свой приват и вернуть инструмент.
+    usage: /<command>
+    permission: riftclaims.command.domdelete
+    permission-message: У вас нет прав для использования этой команды.
+    aliases: [dd, domd, domdel]
+  claimadmin:
+    description: Команды администратора для RiftClaims.
+    usage: /<command> reload
+    permission: riftclaims.admin
+    permission-message: У вас нет прав для использования этой команды.
+    aliases: [ca]

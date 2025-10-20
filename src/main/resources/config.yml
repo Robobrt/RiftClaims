@@ -1,0 +1,26 @@
+# --- Настройки инструмента ---
+claim-tool:
+  material: "GOLDEN_HOE"
+  name: "claim-tool.name"
+  lore:
+    - "claim-tool.lore.line1"
+    - "claim-tool.lore.line2"
+
+# --- Размеры приватов ---
+claim-sizes:
+  default: 10
+  vip: 15
+  premium: 20
+  
+# --- Разрешения (permissions) ---
+permissions:
+  admin: "riftclaims.admin"
+  dom-command: "riftclaims.command.dom"
+  domdelete-command: "riftclaims.command.domdelete"
+  size-prefix: "riftclaims.size."
+
+# --- Настройки подсветки ---
+highlighter:
+  # Материал для 8 угловых "фантомных" блоков. Используйте яркие, светящиеся блоки.
+  # Примеры: SEA_LANTERN, GLOWSTONE, SHROOMLIGHT, BEACON
+  corner-material: "SEA_LANTERN"

@@ -1,0 +1,52 @@
+# Russian localization for RiftClaims
+
+# --- Tool ---
+claim-tool:
+  name: "&6Жезл Территории"
+  lore:
+    line1: "&eПКМ по блоку, чтобы выбрать центр"
+    line2: "&eвашей будущей территории."
+
+# --- Errors ---
+error:
+  already-have-claim: "&cУ вас уже есть приват! Удалите старый через /domdelete."
+  already-have-tool: "&cУ вас уже есть инструмент для привата."
+  no-claim-to-delete: "&cУ вас нет привата для удаления."
+  hotbar-full: "&cВ вашем хотбаре нет места для инструмента!"
+  cannot-delete-hotbar-full: "&cНе удалось удалить приват, так как в вашем хотбаре нет места для возврата инструмента!"
+  claim-is-overlapping: "&cВы не можете создать приват здесь, он пересекается с другой территорией!"
+
+# --- Protection ---
+protection:
+  cannot-build: "&cВы не можете строить на чужой территории!"
+  cannot-interact: "&cВы не можете взаимодействовать с этим на чужой территории!"
+  cannot-use-buckets: "&cВы не можете использовать ведра на чужой территории!"
+  cannot-ignite: "&cВы не можете использовать огонь на чужой территории!"
+  cannot-harm-entities: "&cВы не можете наносить урон существам на чужой территории!"
+tool-protection:
+  cannot-drop: "&cЭтот предмет нельзя выбросить!"
+  cannot-move: "&cЭтот предмет нельзя перемещать в инвентаре!"
+
+# --- Claim Process ---
+claim:
+  tool-received: "&aВы получили Жезл Территории."
+  tool-returned-in-hotbar: "&aИнструмент был возвращен в ваш хотбар."
+  confirm-prompt: "&aТерритория выделена! Нажмите ПКМ снова, чтобы открыть меню настройки."
+  creation-cancelled: "&cСоздание привата отменено."
+  creation-success: "&aТерритория успешно запривачена!"
+  deleted: "&aВаш приват был успешно удален."
+  house-placing: "&eУстанавливаем стартовый домик..."
+
+# --- GUI / Menu ---
+menu:
+  creation:
+    title: "Настройка Территории"
+    house-item:
+      name: "&bСтартовый домик"
+      lore-line1: "&7Построить небольшой дом в центре."
+      lore-enabled: "&aСтатус: Включено"
+      lore-disabled: "&cСтатус: Выключено"
+    confirm-item:
+      name: "&a&lПОДТВЕРДИТЬ"
+    cancel-item:
+      name: "&c&lОТКЛОНИТЬ"
